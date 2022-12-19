@@ -1,6 +1,6 @@
 {
   "name": "@acute-project/common",
-  "version": "1.0.240",
+  "version": "1.0.241",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
