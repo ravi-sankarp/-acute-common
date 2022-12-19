@@ -1,1 +1,1 @@
-export { CustomErrorExceptionFilter } from './Filters/CustomErrorHandler';
+export * from './Filters/CustomErrorHandler';
