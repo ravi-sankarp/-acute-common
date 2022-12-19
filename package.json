@@ -2,9 +2,14 @@
   "name": "@acute/common",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "nest build",
+    "publish": "npm run patch && npm run publish"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
