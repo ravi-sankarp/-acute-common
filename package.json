@@ -1,5 +1,5 @@
 {
-  "name": "@acute/common",
+  "name": "@acute-project/common",
   "version": "1.0.4",
   "description": "",
   "main": "./dist/index.js",
