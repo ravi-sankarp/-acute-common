@@ -8,8 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "nest build",
-    "publish": "npm version patch && npm publish --access=public"
+    "build": "nest build"
   },
   "dependencies": {
     "@nestjs/common": "^9.0.0",
