@@ -14,9 +14,6 @@ export class Users {
   @Prop({ required: true, min: 1, max: 10 })
   lastName: string;
 
-  @Prop({ required: true, unique: true })
-  phoneNumber: string;
-
   @Prop({ required: true, default: false })
   isDeleted: boolean;
 }
