@@ -1,20 +1,18 @@
-import { Schema as mongooseSchema } from 'mongoose';
+import { Types } from 'mongoose';
 import { Roles } from '../enums/roles';
 
 export interface IProjectDetails {
-  _id: mongooseSchema.Types.ObjectId;
+  _id: Types.ObjectId | string;
   title: string;
   overview: string;
   startDate: Date;
   endDate: Date;
   createdBy: string;
   isDeleted: boolean;
-  users: [
-    {
-      email: string;
-      role: Roles;
-    }
-  ];
+  users: {
+    email: string;
+    role: Roles;
+  }[];
   createdAt: Date;
   __v: number;
 }
